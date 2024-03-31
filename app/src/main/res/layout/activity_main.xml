@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_bg">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dayDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:text="Day 1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="303dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="36dp"
+            android:columnCount="7"
+            android:padding="12dp"
+            android:background="@drawable/tracker_bg"
+            android:rowCount="5">
+
+            <!-- 1 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 2 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 3 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 4 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day4"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 5 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day5"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 6 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day6"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 7 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day7"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 8 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day8"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 9 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day9"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 10 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day10"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 11 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day11"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 12 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day12"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 13 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day13"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 14 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day14"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 15 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day15"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 16 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day16"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 17 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day17"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 18 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day18"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 19 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day19"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 20 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day20"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 21 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day21"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 22 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day22"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 23 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day23"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 24 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day24"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 25 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day25"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 26 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day26"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 27 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day27"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 28 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day28"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 29 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day29"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+            <!-- 30 -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1">
+
+                <View
+                    android:id="@+id/day30"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_hole" />
+            </FrameLayout>
+        </GridLayout>
+
+
+        <GridLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:padding="12dp"
+            android:rowCount="2">
+
+            <Button
+                android:id="@+id/u1"
+                android:layout_width="5dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/rounded_button"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="MONDAY"
+                app:backgroundTint="@color/discord" />
+
+            <Button
+                android:id="@+id/low1"
+                android:layout_width="5dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_button"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="WEDNESDAY" />
+
+            <Button
+                android:id="@+id/u2"
+                android:layout_width="5dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_button"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="TUESDAY" />
+
+            <Button
+                android:id="@+id/low2"
+                android:layout_width="5dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_button"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="THURSDAY"
+                app:backgroundTint="@color/discord" />
+
+            <Button
+                android:id="@+id/u3"
+                android:layout_width="5dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_button"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="SUNDAY"
+                app:backgroundTint="@color/discord"/>
+        </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#FDD1D8"
+        android:elevation="8dp">
+
+        <Button
+            android:id="@+id/restBTN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/baseline_airline_seat_individual_suite_24"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="12dp"
+            android:text="Rest"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:backgroundTint="#FDD1D8" />
+
+        <Button
+            android:id="@+id/skipBTN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/baseline_arrow_forward_ios_24"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="12dp"
+            android:text="Skip"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:backgroundTint="#FDD1D8" />
+        <Button
+            android:id="@+id/refBTN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/baseline_cached_24"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="12dp"
+            android:text="Refresh"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:backgroundTint="#FDD1D8" />
+
+    </LinearLayout>
+</RelativeLayout>
+
